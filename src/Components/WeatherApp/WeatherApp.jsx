@@ -16,7 +16,7 @@ const WeatherApp = () => {
   const [temp, setTemp]=useState(0);
   const [humidity, setHumidity] = useState(0);
   const [wind, setWind] = useState(0);
-  const [city, setCity] = useState("London");
+  const [city, setCity] = useState("Coimbatore");
   const [wicon, setWicon]=useState(cloud_icon);
   const search=async()=>{
     const element = document.getElementsByClassName("cityInput");
